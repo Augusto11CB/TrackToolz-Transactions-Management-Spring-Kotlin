@@ -5,7 +5,7 @@ import spring.studies.transactions.trackzilla.model.Application
 interface ApplicationService {
     fun getAllApplications(): List<Application>
     fun addApplication(application: Application?)
-    fun getApplicationById(applicationId: Int): Application?
+    fun getApplicationById(applicationId: Long): Application?
     fun updateApplication(application: Application)
-    fun deleteApplication(applicationId: Int)
+    fun deleteApplication(applicationId: Long)
 }

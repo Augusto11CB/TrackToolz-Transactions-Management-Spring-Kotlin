@@ -1,8 +1,8 @@
 package spring.studies.transactions.trackzilla.repository
 
 import org.springframework.data.jpa.repository.JpaRepository
-import spring.studies.transactions.trackzilla.model.Ticket
+import spring.studies.transactions.trackzilla.model.Release
 
-interface TicketRepository : JpaRepository<Ticket, Long> {
+interface ReleaseRepository : JpaRepository< Release,Long>{
 
 }
