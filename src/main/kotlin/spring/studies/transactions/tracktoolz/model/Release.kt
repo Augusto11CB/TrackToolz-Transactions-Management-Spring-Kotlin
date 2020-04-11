@@ -1,4 +1,4 @@
-package spring.studies.transactions.trackzilla.model
+package spring.studies.transactions.tracktoolz.model
 
 import java.time.LocalDate
 import javax.persistence.*

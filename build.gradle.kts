@@ -11,7 +11,7 @@ plugins {
 
 }
 
-group = "spring.studies.transactions.trackzilla"
+group = "spring.studies.transactions.tracktoolz"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 

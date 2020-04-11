@@ -1,4 +1,4 @@
-package spring.studies.transactions.trackzilla.model
+package spring.studies.transactions.tracktoolz.model
 
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue
@@ -6,13 +6,12 @@ import javax.persistence.GenerationType
 import javax.persistence.Id
 
 @Entity
-data class Ticket(
+data class Application(
         @Id
         @GeneratedValue(strategy = GenerationType.AUTO)
         val id: Long = 0,
-        val title: String,
+        val name: String,
         val description: String,
-        val applicationID: Long,
-        val status: String
+        val owner: String
 ) {
 }

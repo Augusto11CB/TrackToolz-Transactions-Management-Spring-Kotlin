@@ -1,7 +1,7 @@
-package spring.studies.transactions.trackzilla.service.impl
+package spring.studies.transactions.tracktoolz.service.impl
 
-import spring.studies.transactions.trackzilla.model.Application
-import spring.studies.transactions.trackzilla.service.ApplicationService
+import spring.studies.transactions.tracktoolz.model.Application
+import spring.studies.transactions.tracktoolz.service.ApplicationService
 
 class ApplicationServiceImpl () : ApplicationService{
     override fun getAllApplications(): List<Application> {

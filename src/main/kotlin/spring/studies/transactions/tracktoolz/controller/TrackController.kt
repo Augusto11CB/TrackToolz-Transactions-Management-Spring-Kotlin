@@ -1,14 +1,14 @@
-package spring.studies.transactions.trackzilla.controller
+package spring.studies.transactions.tracktoolz.controller
 
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
-import spring.studies.transactions.trackzilla.model.Application
-import spring.studies.transactions.trackzilla.model.Ticket
-import spring.studies.transactions.trackzilla.service.ApplicationService
-import spring.studies.transactions.trackzilla.service.TicketService
+import spring.studies.transactions.tracktoolz.model.Application
+import spring.studies.transactions.tracktoolz.model.Ticket
+import spring.studies.transactions.tracktoolz.service.ApplicationService
+import spring.studies.transactions.tracktoolz.service.TicketService
 
 
 @RestController

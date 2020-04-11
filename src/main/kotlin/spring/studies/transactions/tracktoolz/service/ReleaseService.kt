@@ -1,6 +1,6 @@
-package spring.studies.transactions.trackzilla.service
+package spring.studies.transactions.tracktoolz.service
 
-import spring.studies.transactions.trackzilla.model.Release
+import spring.studies.transactions.tracktoolz.model.Release
 
 
 interface ReleaseService {

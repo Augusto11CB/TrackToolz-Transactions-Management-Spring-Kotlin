@@ -1,10 +1,10 @@
-package spring.studies.transactions.trackzilla
+package spring.studies.transactions.tracktoolz
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class TrackZillaTransactionsManagementSpringKotlinApplicationServiceTests {
+class TrackToolzTransactionsManagementSpringKotlinApplicationServiceTests {
 
 	@Test
 	fun contextLoads() {

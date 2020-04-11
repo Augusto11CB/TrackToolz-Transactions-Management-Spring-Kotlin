@@ -1,7 +1,7 @@
-package spring.studies.transactions.trackzilla.repository
+package spring.studies.transactions.tracktoolz.repository
 
 import org.springframework.data.jpa.repository.JpaRepository
-import spring.studies.transactions.trackzilla.model.Release
+import spring.studies.transactions.tracktoolz.model.Release
 
 interface ReleaseRepository : JpaRepository< Release,Long>{
 

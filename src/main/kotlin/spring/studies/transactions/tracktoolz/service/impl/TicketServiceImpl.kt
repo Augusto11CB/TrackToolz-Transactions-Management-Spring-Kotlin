@@ -1,7 +1,7 @@
-package spring.studies.transactions.trackzilla.service.impl
+package spring.studies.transactions.tracktoolz.service.impl
 
-import spring.studies.transactions.trackzilla.model.Ticket
-import spring.studies.transactions.trackzilla.service.TicketService
+import spring.studies.transactions.tracktoolz.model.Ticket
+import spring.studies.transactions.tracktoolz.service.TicketService
 
 class TicketServiceImpl(): TicketService{
     override fun getAllTickets(): List<Ticket> {

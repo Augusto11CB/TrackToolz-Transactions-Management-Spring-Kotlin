@@ -1,1 +1,1 @@
-rootProject.name = "TrackZilla-Transactions-Management-Spring-Kotlin"
+rootProject.name = "TrackToolz-Transactions-Management-Spring-Kotlin"

@@ -1,13 +1,13 @@
-package spring.studies.transactions.trackzilla.service.impl
+package spring.studies.transactions.tracktoolz.service.impl
 
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Propagation
 import org.springframework.transaction.annotation.Transactional
-import spring.studies.transactions.trackzilla.model.Release
-import spring.studies.transactions.trackzilla.model.Ticket
-import spring.studies.transactions.trackzilla.repository.ReleaseRepository
-import spring.studies.transactions.trackzilla.repository.TicketRepository
-import spring.studies.transactions.trackzilla.service.ReleaseService
+import spring.studies.transactions.tracktoolz.model.Release
+import spring.studies.transactions.tracktoolz.model.Ticket
+import spring.studies.transactions.tracktoolz.repository.ReleaseRepository
+import spring.studies.transactions.tracktoolz.repository.TicketRepository
+import spring.studies.transactions.tracktoolz.service.ReleaseService
 
 @Service
 @Transactional(propagation = Propagation.REQUIRES_NEW, readOnly = true)
